@@ -22,7 +22,7 @@ This API is built with Flask, a framework for Python
 - **Request**:
     - Content-Type: application/json
     - Body:
-    ``json
+    ```json
     {
         "image": [image file]
     }
