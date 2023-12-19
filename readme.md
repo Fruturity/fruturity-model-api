@@ -13,7 +13,7 @@ This API is built with Flask, a framework for Python
 
 ## Endpoints
 ### Predict Fruit Image
-- **Endpoint**: `/prediction
+- **Endpoint**: `/prediction`
 - **Method**: `POST`
 - **Description**: Predict the ripeness of the fruit.
 - **Request Parameters**: None
