@@ -5,6 +5,7 @@ from werkzeug.utils import secure_filename
 from tensorflow.keras.models import load_model
 from PIL import Image
 import numpy as np
+from google.cloud import storage
 
 app = Flask(__name__)
 app.config["ALLOWED_EXTENSIONS"] = set(['png', 'jpg', 'jpeg'])
@@ -13,7 +14,17 @@ app.config["UPLOAD_FOLDER"] = "static/uploads/"
 def allowed_file(filename):
     return "." in filename and filename.split(".", 1)[1] in app.config["ALLOWED_EXTENSIONS"]
 
-model = load_model("fruit_detection.h5", compile=False)
+def take_model(bucket_name, model_name):
+    storage_client = storage.Client.from_service_account_json("bucket_model.json")
+    bucket = storage_client.get_bucket(bucket_name)
+    blob = bucket.blob(model_name)
+    local_model_filename = '/fruit_detection2.h5'
+    blob.download_to_filename(local_model_filename)
+    return load_model(local_model_filename)
+
+# model = load_model(blob, compile=False)
+
+model = take_model('fruit_model_prediction', 'fruit_detection.h5')
 
 @app.route("/")
 def index():

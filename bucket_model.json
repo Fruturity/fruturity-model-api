@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "composed-card-399614",
+  "private_key_id": "361bd9ecf071f9f643fbce573ba257c41913ffa5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDEkymrw2Hdm0Iw\nCAE6KEbv+dZbzOcT86NwUjco/cA2/1MSqYaQfaUnDAzVxoN8ukVZZJX7/pztATD8\nwIYki2z5n4cKkKxVJEwLD8meU6R9t2zcUOZ3BNF3pNJY2reQTj51heE4ByTxt6m6\nRexj3oEZVPpCgJi642jFRuATQ+2Z7cQWa9cPpgVfxw7HrbuK16VP5yasqah4hA42\ni9kEuuQEtlF9gSoIdOvhkLZzgOojY+9mUEbwtUqj+x7iwEUt5gBd5fkkJj17jYQE\nmdMGEpMk3JYys/mxylM5/zwoLFziPOFvwP6+zK3b/v8rmfwei2owKD+5BTLe3KkV\nIISyK1UBAgMBAAECggEAFFkndyBCgS4RK+eoONzyeuThy57qTKZrxLS+AQBDZW4I\nq2XhCBP5hJE6wuZJth+SDi7bV7qDhAUbjQ5g1GeaYDyjPfS74hRfysVXmYwO+vSB\n0EyPjsJw7HGjVI9PcSCoVoIFTkdvC5Z3e1DBp5TgyD6DqV6mcLIZplIv386oScak\nSZKkDg3mrj6k8s9RRxawCnBcdo+6ZURTAo9EvGaaitZ8jcN7k6AbIbbDg1FmCUrd\ntVqISDiN/lezDikVFBjOT+nHqkIPBAw3wSZYbzPvmYu79aQGY8LJMybgcXCkt6KY\nN20ff9CsS3fDSoahS24dTLZoAqAOvA9UwbHgsU64AQKBgQD67O0SDn6fGhgkh06p\n9yE8wz3+oWiEgw+1A4JnQohbjcdToJ1dP+LOEzRkXbbJDLIIwGS70fheE1CKYABn\ntKl4WE32bq+RspUfYs/ahTeN+ayhtj9NqS7haRatfodDXuyL3YssorX5euYQNwrm\n2J7YxkYk1K8tQ5bnv5EtD6pt9QKBgQDIjNs8hoOZInakwzqwILHptujlXh17UUbA\nyeTxUXe0fFQljTC7AX0IAGb9x7epvef59ek3sgb0J2UX6YlnPYruVZce7w8TZ1a9\nfG07UBY8NQYWPt8WAQQDGfZO8945zefjFGyAt0CDA/aQriWUl3SxAUphMVCJYCz4\nPSicWEL3XQKBgF2e8IUAK3YpQkC+yzbXIeuN3R+YEWr/i2i6OnlUdZPTPj+ReaVF\nJNZGjBG2dXBl8DcbsXnySXywMCiw0PXgjip8p/n+KjtuKf1f3LVnZubt9N8RJGVR\nblBj6TYqM0WLsS4uJrMsskC2/gemwcaHpBy1PY6YXBPDWBZ3fy8U3T3RAoGABwUX\nL3kt5hBUwtOqnDuovpuOb2jp80UXCuyGPQQzAnhPobjdec5FiCArerqg7SoekptO\n/IoYwDcYzMt56ck3sbwBPC32AyHc4WkXkbnt7VGV0vWEbYq/jzQ7cOwMXU2dzk8K\ntT603WEoIkxWOGtMxF1dMyW8wfJB4LaTU1WrkmkCgYEAkJyOci/KMH+Dg81xhFMr\nkQNOJ2pTJVeV4ErHDfV19r6AiUeT8h97d8sIpQXninjAlmqiP1vy5inyfzzlbud4\n8iJvKOwvqX4OYSjDC+ucC4T+XHU6yTYjAEMqh95AEXU/OhX4yyCuxA85nuxy7/ih\nMj8Z66x2KDIpf5v7hHTIfPI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "fruit-model-prediction-sa@composed-card-399614.iam.gserviceaccount.com",
+  "client_id": "116410540026552718215",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fruit-model-prediction-sa%40composed-card-399614.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
